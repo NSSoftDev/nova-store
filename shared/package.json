@@ -1,0 +1,9 @@
+{
+  "name": "@nova/shared",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Catalogue seed, pricing engine and analytics shared by the Nova Store client and API",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": { ".": "./src/index.js" }
+}

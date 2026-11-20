@@ -1,0 +1,18 @@
+{
+  "name": "nova-store",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Nova Store — e-commerce demo: React storefront & admin, Node.js/Express API, PostgreSQL",
+  "license": "MIT",
+  "workspaces": ["shared", "server", "client"],
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "npm run dev --workspace client",
+    "dev:api": "npm run dev --workspace server",
+    "db:migrate": "npm run migrate --workspace server",
+    "db:seed": "npm run seed --workspace server",
+    "test": "npm test --workspace server",
+    "build": "npm run build --workspace client",
+    "build:demo": "npm run build:demo --workspace client"
+  }
+}
